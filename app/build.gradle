@@ -6,6 +6,10 @@ plugins {
 android {
     compileSdkVersion 31
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId "com.groke.materialapp"
         minSdkVersion 22
